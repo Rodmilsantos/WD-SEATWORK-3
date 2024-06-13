@@ -1,0 +1,96 @@
+/* Common styles for all headers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+/* Header styles */
+header {
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    margin-bottom: 10px;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Header 1: Minimalist Elegance */
+.header1 {
+    background-color: #ffffff;
+}
+
+/* Header 2: Nature Inspired */
+.header2 {
+    background-image: url('nature-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+/* Header 3: Urban Chic */
+.header3 {
+    background-color: #333333;
+}
+
+/* Header 4: Artistic Splash */
+.header4 {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+/* Header 5: Tech Savvy */
+.header5 {
+    background-color: #007acc;
+    color: #ffffff;
+}

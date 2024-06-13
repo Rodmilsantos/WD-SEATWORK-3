@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Facebook Theme */
+.facebook-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5998;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.facebook-logo {
+    height: 50px;
+}
+
+.facebook-nav {
+    display: flex;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: white;
+}
+
+.facebook-button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Twitter Theme */
+.twitter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1DA1F2;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.twitter-logo {
+    height: 50px;
+}
+
+.twitter-nav {
+    display: flex;
+}
+
+.twitter-search-area {
+    display: flex;
+    align-items: center;
+}
+
+.twitter-search-bar {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Online Shopping Theme */
+.shopping-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD700;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.shopping-logo {
+    height: 50px;
+}
+
+.shopping-icons {
+    display: flex;
+}
+
+.shopping-icons i {
+    margin: 0 10px;
+}
+
+/* Vertical Header Bar */
+.vertical-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.vertical-logo {
+    height: 50px;
+}
+
+.vertical-nav {
+    display: flex;
+}
+
+.vertical-buttons {
+    display: flex;
+}
+
+.sign-in-button, .sign-up-button {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Food Website */
+.food-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #228B22;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.food-logo {
+    height: 50px;
+}
+
+.food-left-nav, .food-right-nav {
+    display: flex;
+}
+
+.food-search i {
+    margin-left: 10px;
+}
+
+/* Food Panda Theme */
+.food-panda-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #FF3D00, #FF6E40);
+    padding: 10px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+    font-family: 'Bangers', cursive;
+}
+
+.food-panda-logo {
+    height: 50px;
+}
+
+.food-panda-nav {
+    display: flex;
+}
+
+.food-panda-nav .nav-link {
+    margin: 0 10px;
+    color: white;
+}
+
+/* Google Theme */
+.google-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4285F4;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    animation: slideIn 1s ease-in-out;
+    font-family: 'Oswald', sans-serif;
+}
+
+.google-logo {
+    height: 50px;
+}
+
+.google-nav {
+    display: flex;
+}
+
+.google-search-area {
+    display: flex;
+    align-items: center;
+}
+
+.google-search-bar {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Healthcare Theme */
+.healthcare-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #00C853, #69F0AE);
+    padding: 10px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    animation: bounceIn 1s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.healthcare-logo {
+    height: 50px;
+}
+
+.healthcare-nav {
+    display: flex;
+}
+
+.healthcare-nav .nav-link {
+    margin: 0 10px;
+    color: white;
+}
+
+/* Video Game Theme */
+.video-game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #6200EA, #B388FF);
+    padding: 10px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    animation: zoomIn 1s ease-in-out;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.video-game-logo {
+    height: 50px;
+}
+
+.video-game-nav {
+    display: flex;
+}
+
+.video-game-nav .nav-link {
+    margin: 0 10px;
+    color: white;
+}
+
+/* Minimalist Theme */
+.minimalist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    animation: fadeIn 1s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+
+.minimalist-logo {
+    height: 50px;
+}
+
+.minimalist-nav {
+    display: flex;
+}
+
+.minimalist-nav .nav-link {
+    margin: 0 10px;
+    color: black;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes bounceIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.5); }
+    to { transform: scale(1); }
+}
