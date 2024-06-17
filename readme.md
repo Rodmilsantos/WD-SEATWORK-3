@@ -120,7 +120,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| c
 | Learn HTML buttons in 5 minutes| HTML CSS buttons tutorial example explained | https://www.youtube.com/watch?v=tDqTXipQmBU |
 | [HTML-Tutorial-12] nav Element  Navigation  Web Development for Beginners |  Importance of nav element in creating a navigational section for your website | https://www.youtube.com/watch?v=xSTVTT3cx0w |
 | How to use Bootstrap CDN in HTML | Bootstrap CDN in HTML | https://www.youtube.com/watch?v=Ee767oxFVX8 |
