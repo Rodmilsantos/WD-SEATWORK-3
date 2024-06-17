@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">HEADERS AND FOOTERS</h3>
 </div>
 <!-- TODO: Make a short description -->
-<div align="center">
-  Short Description. (Optional)
+<div align="center"> 
+The purpose of the project is to demonstrate the implementation of different themed footer designs for various types of websites. Each theme is tailored to a specific context
 </div>
 
 <br />
@@ -60,17 +60,20 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project is a demonstration of different themed web designs, each with its own unique footer and header section.
+- To practice and demonstrate HTML and CSS skills.
+- Distinct Themes Each section represents a different type of website, demonstrating diverse design aesthetics.
+Navigation Links Each footer and headers contains navigation links
+-  HTML for Structure, CSS for styling, Font Awesome provides a library of icons that are used for logos and buttons in the footers. It is included via a CDN link.
+Google Fonts for typhography. CDN used to include external libraries such as Font Awesome and Google Fonts. This ensures fast loading times and reliability.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Responsive Design Ensure compatibility across various devices using CSS media queries.
+- Accessibility Implement best practices for accessibility
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +120,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| c
+| Learn HTML buttons in 5 minutes| HTML CSS buttons tutorial example explained | https://www.youtube.com/watch?v=tDqTXipQmBU |
+| [HTML-Tutorial-12] nav Element  Navigation  Web Development for Beginners |  Importance of nav element in creating a navigational section for your website | https://www.youtube.com/watch?v=xSTVTT3cx0w |
+| How to use Bootstrap CDN in HTML | Bootstrap CDN in HTML | https://www.youtube.com/watch?v=Ee767oxFVX8 |
+
