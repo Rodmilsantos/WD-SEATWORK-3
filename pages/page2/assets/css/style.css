@@ -1,11 +1,8 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 20px;
   margin-top: 20px;
 }
@@ -14,246 +11,617 @@ footer nav {
   margin: 10px 0;
 }
 
-footer nav a.nav-link {
-  margin: 0 15px;
+.footer-rights {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-rights a {
   text-decoration: none;
-  color: #333;
-  font-size: 14px;
+  margin: 0 5px;
+  transition: color 0.3s;
 }
 
-footer nav a.nav-link:hover {
-  text-decoration: underline;
-}
-
-footer button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-footer button:hover {
-  background-color: #0056b3;
-}
-
-footer i {
-  font-size: 50px;
-  margin-top: 10px;
-}
-footer button:hover {
-  background-color: #0056b3;
-}
-
-footer i {
-  font-size: 50px;
+.footer-socials {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
 }
 
-/* Animations */
-@keyframes slideIn {
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.footer-socials .social-link {
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
 }
 
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
+/* Theme Specific Styles */
 
 /* Car Dealer Theme */
 .car-dealer-footer {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #e0d6d6; /* Light gray */
-  text-align: left; /* Left alignment */
+  background-color: #e0d6d6;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px;
+  border-top: 5px solid #c20909;
 }
+
 .car-dealer-footer .car-dealer-logo {
   color: #c20909;
+  font-size: 28px;
+  margin-right: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #000;
 }
+
 .car-dealer-footer nav {
   text-align: left;
+  margin: 20px 0;
+}
+
+.car-dealer-footer .nav-link {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.car-dealer-footer .footer-rights {
+  color: #c20909;
+}
+
+.car-dealer-footer .footer-rights a {
+  color: #c20909;
+}
+
+.car-dealer-footer .footer-rights a:hover {
+  color: #ff5656;
+}
+
+.car-dealer-footer .footer-socials .social-link {
+  color: #c20909;
+}
+
+.car-dealer-footer .footer-socials .social-link:hover {
+  color: #ff5656;
 }
 
 /* Steam Theme */
 .steam-footer {
-  font-family: 'Raleway', sans-serif;
-  background-color: #e0f7fa; /* Light cyan */
-  text-align: center; /* Center alignment */
+  background-color: #e0f7fa;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding: 40px;
+  border-bottom: 5px solid #325a88;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .steam-footer .steam-logo {
   color: #325a88;
+  font-size: 28px;
+  margin-left: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #fff;
 }
+
 .steam-footer nav {
   text-align: center;
+  margin: 20px 0;
+}
+
+.steam-footer .nav-link {
+  font-size: 18px;
+  color: #325a88;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.steam-footer .footer-rights {
+  color: #325a88;
+}
+
+.steam-footer .footer-rights a {
+  color: #325a88;
+}
+
+.steam-footer .footer-rights a:hover {
+  color: #4a69bd;
+}
+
+.steam-footer .footer-socials .social-link {
+  color: #325a88;
+}
+
+.steam-footer .footer-socials .social-link:hover {
+  color: #4a69bd;
 }
 
 /* Epic Games Theme */
 .epic-games-footer {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f8f9fa; /* Light gray */
-  text-align: right; /* Right alignment */
+  background-color: #f8f9fa;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  border-left: 5px solid #000;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
 }
+
 .epic-games-footer .epic-games-logo {
-  color: #000000;
+  color: #000;
+  font-size: 28px;
+  margin-left: auto;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #fff;
 }
+
 .epic-games-footer nav {
   text-align: right;
+  margin: 20px 0;
+}
+
+.epic-games-footer .nav-link {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.epic-games-footer .footer-rights {
+  color: #000;
+}
+
+.epic-games-footer .footer-rights a {
+  color: #000;
+}
+
+.epic-games-footer .footer-rights a:hover {
+  color: #333;
+}
+
+.epic-games-footer .footer-socials .social-link {
+  color: #000;
+}
+
+.epic-games-footer .footer-socials .social-link:hover {
+  color: #333;
 }
 
 /* YouTube Theme */
 .youtube-footer {
-  font-family: 'Oswald', sans-serif;
-  background-color: #ffebee; /* Light red */
-  text-align: justify; /* Justify alignment */
+  background-color: #ffebee;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  padding: 40px;
+  border: 5px solid #e60f0f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .youtube-footer .youtube-logo {
   color: #e60f0f;
+  font-size: 28px;
+  margin-right: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #aaa;
 }
+
 .youtube-footer .youtube-search-area {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
+
 .youtube-footer .youtube-search-bar {
   padding: 5px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+
 .youtube-footer .fa-magnifying-glass {
   margin-left: 5px;
   cursor: pointer;
   color: #333;
 }
+
 .youtube-footer nav {
   text-align: justify;
+  margin: 20px 0;
+}
+
+.youtube-footer .nav-link {
+  font-size: 18px;
+  color: #e60f0f;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.youtube-footer .footer-rights {
+  color: #e60f0f;
+}
+
+.youtube-footer .footer-rights a {
+  color: #e60f0f;
+}
+
+.youtube-footer .footer-rights a:hover {
+  color: #ff6b6b;
+}
+
+.youtube-footer .footer-socials .social-link {
+  color: #e60f0f;
+}
+
+.youtube-footer .footer-socials .social-link:hover {
+  color: #ff6b6b;
 }
 
 /* Honda Dealer Theme */
 .honda-dealer-footer {
-  font-family: 'Merriweather', sans-serif;
-  background-color: #e8f5e9; /* Light green */
-  text-align: left; /* Left alignment */
+  background-color: #e8f5e9;
+  text-align: left;
+  font-family: "Merriweather", sans-serif;
+  padding: 40px;
+  border-bottom: 5px solid #388e3c;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .honda-dealer-footer .honda-logo {
   color: #333;
+  font-size: 28px;
+  margin-right: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #aaa;
 }
+
 .honda-dealer-footer nav {
   text-align: left;
+  margin: 20px 0;
+}
+
+.honda-dealer-footer .nav-link {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.honda-dealer-footer .footer-rights {
+  color: #388e3c;
+}
+
+.honda-dealer-footer .footer-rights a {
+  color: #388e3c;
+}
+
+.honda-dealer-footer .footer-rights a:hover {
+  color: #66bb6a;
+}
+
+.honda-dealer-footer .footer-socials .social-link {
+  color: #388e3c;
+}
+
+.honda-dealer-footer .footer-socials .social-link:hover {
+  color: #66bb6a;
 }
 
 /* Work Theme */
 .work-footer {
-  font-family: 'Lato', sans-serif;
-  background-color: #f5f5f5; /* Light gray */
-  text-align: left; /* Left alignment */
-  animation: slideIn 1s ease-out;
+  background-color: #f5f5f5;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  padding: 40px;
+  border-top: 5px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
+
 .work-footer .work-logo {
   color: #007bff;
-  animation: slideInLeft 1s ease-out;
+  font-size: 32px;
+  margin-right: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #fff;
+  letter-spacing: 1px;
 }
+
 .work-footer nav {
   text-align: left;
+  margin: 20px 0;
+}
+
+.work-footer .nav-link {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px 10px;
+  color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.work-footer .nav-link:hover {
+  background-color: #007bff;
+  color:#007bff;
+  color: #fff;
+}
+
+.work-footer .nav-link:hover::before {
+  content: "\2713";
+  margin-right: 5px;
+}
+
+.work-footer .footer-rights {
+  color: #007bff;
+}
+
+.work-footer .footer-rights a {
+  color: #007bff;
+}
+
+.work-footer .footer-rights a:hover {
+  color: #66aaff;
+}
+
+.work-footer .footer-socials .social-link {
+  color: #007bff;
+}
+
+.work-footer .footer-socials .social-link:hover {
+  color: #66aaff;
 }
 
 /* Music Theme */
 .music-footer {
-  font-family: 'Lato', sans-serif;
-  background-color: #f0e6f6; /* Light purple */
-  text-align: center; /* Center alignment */
-  animation: slideIn 1s ease-out;
+  background-color: #f0e6f6;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .music-footer .music-logo {
   color: #8a2be2;
-  animation: fadeOut 1s ease-out 4s forwards;
+  font-size: 30px;
+  margin-left: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #aaa;
 }
+
 .music-footer nav {
   text-align: center;
+  margin: 20px 0;
+}
+
+.music-footer .nav-link {
+  font-size: 18px;
+  color: #8a2be2;
+}
+
+.music-footer .nav-link:hover {
+  color: #4a148c;
+  text-shadow: 2px 2px 8px #aaa;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.music-footer .nav-link:hover::before {
+  content: "\2713";
+  margin-right: 5px;
+}
+
+.music-footer .footer-rights {
+  color: #8a2be2;
+}
+
+.music-footer .footer-rights a {
+  color: #8a2be2;
+}
+
+.music-footer .footer-rights a:hover {
+  color: #c16ff7;
+}
+
+.music-footer .footer-socials .social-link {
+  color: #8a2be2;
+}
+
+.music-footer .footer-socials .social-link:hover {
+  color: #c16ff7;
 }
 
 /* Microsoft Theme */
 .microsoft-footer {
-  font-family: 'Lato', sans-serif;
-  background-color: #e0e0e0; /* Light gray */
-  text-align: right; /* Right alignment */
-  animation: slideIn 3s ease-out;
+  background-color: #f3f3f3;
+  text-align: right;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  border-left: 5px solid #0078d4;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
+
 .microsoft-footer .microsoft-logo {
   color: #0078d4;
-  animation: slideInRight 3s ease-out;
+  font-size: 32px;
+  margin-left: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #fff;
 }
+
 .microsoft-footer nav {
   text-align: right;
+  margin: 20px 0;
+}
+
+.microsoft-footer .nav-link {
+  font-size: 18px;
+  color: #0078d4;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.microsoft-footer .nav-link:hover {
+  background-color: #0078d4;
+  color: #fff;
+  text-shadow: 1px 1px 4px #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.microsoft-footer .nav-link:hover::before {
+  content: "\2713";
+  margin-right: 5px;
+}
+
+.microsoft-footer .footer-rights {
+  color: #0078d4;
+}
+
+.microsoft-footer .footer-rights a {
+  color: #0078d4;
+}
+
+.microsoft-footer .footer-rights a:hover {
+  color: #66b2ff;
+}
+
+.microsoft-footer .footer-socials .social-link {
+  color: #0078d4;
+}
+
+.microsoft-footer .footer-socials .social-link:hover {
+  color: #66b2ff;
 }
 
 /* Love Theme */
 .love-footer {
-  font-family: 'Lato', sans-serif;
-  background-color: #ffe6e6; /* Light pink */
-  text-align: center; /* Center alignment */
-  animation: slideIn 3s ease-out;
+  background-color: #ffe6e6;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding: 40px;
+  border-top: 5px solid #ff1493;
+  border-bottom: 5px solid #ff1493;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .love-footer .love-logo {
   color: #ff1493;
-  animation: fadeOut 3s ease-out 4s forwards;
+  font-size: 30px;
+  margin-right: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #aaa;
+  letter-spacing: 2px;
 }
+
 .love-footer nav {
   text-align: center;
+  margin: 20px 0;
+}
+
+.love-footer .nav-link {
+  font-size: 18px;
+  color: #ff1493;
+}
+
+.love-footer .nav-link:hover {
+  color: #d81b60;
+  text-shadow: 2px 2px 8px #aaa;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.love-footer .nav-link:hover::before {
+  content: "\2713";
+  margin-right: 5px;
+}
+
+.love-footer .footer-rights {
+  color: #ff1493;
+}
+
+.love-footer .footer-rights a {
+  color: #ff1493;
+}
+
+.love-footer .footer-rights a:hover {
+  color: #ff85c0;
+}
+
+.love-footer .footer-socials .social-link {
+  color: #ff1493;
+}
+
+.love-footer .footer-socials .social-link:hover {
+  color: #ff85c0;
 }
 
 /* Arcade Theme */
 .arcade-footer {
-  font-family: 'Press Start 2P', cursive;
-  background-color: #f4f4f9; /* Light gray */
-  text-align: center; /* Center alignment */
-  animation: slideIn 3s ease-out;
-}
-.arcade-footer .arcade-logo {
-  color: #ff4500;
-  animation: slideInLeft 2s ease-out;
-}
-.arcade-footer nav {
+  background-color: #f4f4f9;
   text-align: center;
+  font-family: "Press Start 2P", cursive;
+  padding: 40px;
+  border-top: 5px solid #ff4500;
+  border-bottom: 5px solid #ff4500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.footer-rights {
-  margin-top: 10px;
-  font-size: 12px;
-  color: #777;
+.arcade-footer .arcade-logo {
+  color: #ff4500;
+  font-size: 30px;
+  margin-left: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #aaa;
+}
+
+.arcade-footer nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.arcade-footer .nav-link {
+  font-size: 18px;
+  color: #ff4500;
+}
+
+.arcade-footer .nav-link:hover {
+  color: #ff2400;
+  text-shadow: 2px 2px 8px #aaa;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.arcade-footer .nav-link:hover::before {
+  content: "\2713";
+  margin-right: 5px;
+}
+
+.arcade-footer .footer-rights {
+  color: #ff4500;
+}
+
+.arcade-footer .footer-rights a {
+  color: #ff4500;
+}
+
+.arcade-footer .footer-rights a:hover {
+  color: #ff7b56;
+}
+
+.arcade-footer .footer-socials .social-link {
+  color: #ff4500;
+}
+
+.arcade-footer .footer-socials .social-link:hover {
+  color: #ff7b56;
 }

@@ -20,7 +20,7 @@ The purpose of the project is to demonstrate the implementation of different the
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://github.com/Rodmilsantos/WD-SEATWORK-3)
 
 ---
 
@@ -32,13 +32,14 @@ The purpose of the project is to demonstrate the implementation of different the
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#overview">Overview</a>
+      <a href="#overview">practice and demonstrate HTML and CSS skills.</a>
       <ol>
         <li>
           <a href="#key-components">Key Components</a>
         </li>
         <li>
-          <a href="#technology">Technology</a>
+          <a href="#technology">Font Awesome provides a library of icons that are used for logos and footer buttons, with HTML for structure and CSS for styling. It is included through a CDN link.
+Google Fonts for Typography. CDN used to include external libraries like Font Awesome and Google Fonts. This ensures faster loading times and dependability.</a>
         </li>
       </ol>
     </li>
@@ -46,7 +47,7 @@ The purpose of the project is to demonstrate the implementation of different the
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
-      <a href="#resources">Resources</a>
+      <a href="#resources">VSCODE,HTML,CSS</a>
     </li>
   </ol>
 </details>
@@ -55,8 +56,8 @@ The purpose of the project is to demonstrate the implementation of different the
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
+
+
 Description of the project in details.
 
 Guiding Question:
@@ -69,17 +70,16 @@ Google Fonts for typhography. CDN used to include external libraries such as Fon
 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
+
 - Responsive Design Ensure compatibility across various devices using CSS media queries.
 - Accessibility Implement best practices for accessibility
 
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -123,4 +123,6 @@ WD-ProjectName
 | Learn HTML buttons in 5 minutes| HTML CSS buttons tutorial example explained | https://www.youtube.com/watch?v=tDqTXipQmBU |
 | [HTML-Tutorial-12] nav Element  Navigation  Web Development for Beginners |  Importance of nav element in creating a navigational section for your website | https://www.youtube.com/watch?v=xSTVTT3cx0w |
 | How to use Bootstrap CDN in HTML | Bootstrap CDN in HTML | https://www.youtube.com/watch?v=Ee767oxFVX8 |
+| CSS Text Shadow (in 1 minute) | to add more depth | https://www.youtube.com/watch?v=0nP67G-ZiWQ |
+| Footer Html Css website footer design | to get more ideas | https://www.youtube.com/watch?v=zdA3qZNH1vc |
 

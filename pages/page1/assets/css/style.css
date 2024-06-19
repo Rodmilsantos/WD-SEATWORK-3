@@ -1,15 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+/* Animations */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: scale(0.5);
+        color: #ffffff;
+    }
+    to { 
+        opacity: 1; 
+        transform: scale(1);
+        color: inherit;
+    }
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
+@keyframes slideIn {
+    from { 
+        transform: scale(0.5);
+        color: #ffffff;
+    }
+    to { 
+        transform: scale(1);
+        color: inherit;
+    }
+}
+
+@keyframes bounceIn {
+    from { 
+        transform: scale(0); 
+        color: #ffffff;
+    }
+    to { 
+        transform: scale(1); 
+        color: inherit;
+    }
+}
+
+@keyframes zoomIn {
+    from { 
+        transform: scale(0.5); 
+        color: #ffffff;
+    }
+    to { 
+        transform: scale(1); 
+        color: inherit;
+    }
 }
 
 /* Facebook Theme */
@@ -24,29 +57,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.facebook-logo {
-    font-size: 3rem;
-    margin-right: 20px;
-}
-
-.facebook-nav {
-    display: flex;
-}
-
-.nav-link {
-    margin: 0 10px;
-    color: white;
-    font-size: 1.5rem;
-}
-
-.facebook-button {
-    background-color: #4267B2;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
 /* Twitter Theme */
 .twitter-header {
     display: flex;
@@ -59,25 +69,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.twitter-logo {
-    font-size: 3rem;
-    margin-right: 20px;
-}
-
-.twitter-nav {
-    display: flex;
-}
-
-.twitter-search-area {
-    display: flex;
-    align-items: center;
-}
-
-.twitter-search-bar {
-    padding: 5px;
-    margin-right: 5px;
-}
-
 /* Online Shopping Theme */
 .shopping-header {
     display: flex;
@@ -87,20 +78,6 @@ body {
     padding: 10px;
     width: 100%;
     font-family: 'Lato', sans-serif;
-}
-
-.shopping-logo {
-    font-size: 3rem;
-    margin-right: 20px;
-}
-
-.shopping-icons {
-    display: flex;
-}
-
-.shopping-icons i {
-    margin: 0 10px;
-    font-size: 1.5rem;
 }
 
 /* Vertical Header Bar */
@@ -115,28 +92,6 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-.vertical-logo {
-    font-size: 3rem;
-    margin-right: 20px;
-}
-
-.vertical-nav {
-    display: flex;
-}
-
-.vertical-buttons {
-    display: flex;
-}
-
-.sign-in-button, .sign-up-button {
-    background-color: #FF6347;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
 /* Food Website */
 .food-header {
     display: flex;
@@ -147,24 +102,6 @@ body {
     width: 100%;
     color: white;
     font-family: 'Pacifico', cursive;
-}
-
-.food-logo {
-    font-size: 3rem;
-    margin-right: 20px;
-}
-
-.food-left-nav, .food-right-nav {
-    display: flex;
-}
-
-.food-left-nav .nav-link, .food-right-nav .nav-link {
-    font-size: 1.5rem;
-}
-
-.food-search i {
-    margin-left: 10px;
-    font-size: 1.5rem;
 }
 
 /* Food Panda Theme */
@@ -182,19 +119,17 @@ body {
     font-family: 'Bangers', cursive;
 }
 
-.food-panda-logo {
-    font-size: 3rem;
-    margin-right: 20px;
+.food-panda-nav .nav-link:hover {
+    background-color: white;
+    color: #FF3D00;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
 }
 
-.food-panda-nav {
-    display: flex;
-}
-
-.food-panda-nav .nav-link {
-    margin: 0 10px;
-    color: white;
-    font-size: 1.5rem;
+.food-panda-nav .nav-link:hover::before {
+    content: '\2713'; /* Checkmark icon */
+    margin-right: 5px;
 }
 
 /* Google Theme */
@@ -210,22 +145,16 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.google-logo {
-    font-size: 3rem;
-    margin-right: 20px;
+.google-nav .nav-link:hover {
+    background-color: white;
+    color: #4285F4;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
 }
 
-.google-nav {
-    display: flex;
-}
-
-.google-search-area {
-    display: flex;
-    align-items: center;
-}
-
-.google-search-bar {
-    padding: 5px;
+.google-nav .nav-link:hover::before {
+    content: '\2713'; /* Checkmark icon */
     margin-right: 5px;
 }
 
@@ -244,19 +173,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.healthcare-logo {
-    font-size: 3rem;
-    margin-right: 20px;
+.healthcare-nav .nav-link:hover {
+    background-color: white;
+    color: #00C853;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
 }
 
-.healthcare-nav {
-    display: flex;
-}
-
-.healthcare-nav .nav-link {
-    margin: 0 10px;
-    color: white;
-    font-size: 1.5rem;
+.healthcare-nav .nav-link:hover::before {
+    content: '\2713'; /* Checkmark icon */
+    margin-right: 5px;
 }
 
 /* Video Game Theme */
@@ -274,19 +201,17 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-.video-game-logo {
-    font-size: 3rem;
-    margin-right: 20px;
+.video-game-nav .nav-link:hover {
+    background-color: white;
+    color: #6200EA;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
 }
 
-.video-game-nav {
-    display: flex;
-}
-
-.video-game-nav .nav-link {
-    margin: 0 10px;
-    color: white;
-    font-size: 1.5rem;
+.video-game-nav .nav-link:hover::before {
+    content: '\2713'; /* Checkmark icon */
+    margin-right: 5px;
 }
 
 /* Minimalist Theme */
@@ -302,38 +227,15 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.minimalist-logo {
-    font-size: 3rem;
-    margin-right: 20px;
+.minimalist-nav .nav-link:hover {
+    background-color: white;
+    color: #da1313;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
 }
 
-.minimalist-nav {
-    display: flex;
-}
-
-.minimalist-nav .nav-link {
-    margin: 0 10px;
-    color: black;
-    font-size: 1.5rem;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes slideIn {
-    from { transform: translateX(-100%); }
-    to { transform: translateX(0); }
-}
-
-@keyframes bounceIn {
-    from { transform: scale(0); }
-    to { transform: scale(1); }
-}
-
-@keyframes zoomIn {
-    from { transform: scale(0.5); }
-    to { transform: scale(1); }
+.minimalist-nav .nav-link:hover::before {
+    content: '\2713'; /* Checkmark icon */
+    margin-right: 5px;
 }
